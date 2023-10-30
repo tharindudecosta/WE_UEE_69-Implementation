@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10sp"
+    android:layout_marginVertical="10sp"
+    android:layout_marginStart="12sp"
+    android:layout_marginEnd="12sp"
+    android:backgroundTint="@color/itemCard"
+    app:cardCornerRadius="20sp"
+    app:cardElevation="8sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvAppId"
+                android:layout_width="340sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:padding="6sp"
+                android:text="Loading..."
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:background="@drawable/roundstyle_3"
+                android:textStyle="italic" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvPatientName"
+                android:layout_width="87sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:text="@string/patient"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/patientName"
+                android:layout_width="204sp"
+                android:layout_height="32sp"
+                android:layout_marginStart="145sp"
+                android:layout_marginTop="20sp"
+                android:text="Language"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvAppDate"
+                android:layout_width="77sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:text="@string/date"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/appDate"
+                android:layout_width="204sp"
+                android:layout_height="32sp"
+                android:layout_marginStart="145sp"
+                android:layout_marginTop="20sp"
+                android:text="Language"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvAppTime"
+                android:layout_width="77sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:text="@string/time"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/appTime"
+                android:layout_width="204sp"
+                android:layout_height="32sp"
+                android:layout_marginStart="145sp"
+                android:layout_marginTop="20sp"
+                android:text="Language"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvPatientPhone"
+                android:layout_width="87sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:text="@string/contact"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/patientPhone"
+                android:layout_width="204sp"
+                android:layout_height="32sp"
+                android:layout_marginStart="145sp"
+                android:layout_marginTop="20sp"
+                android:text="Language"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvPatientAilment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:text="@string/ailment"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/patientAilment"
+                android:layout_width="204sp"
+                android:layout_height="32sp"
+                android:layout_marginStart="145sp"
+                android:layout_marginTop="20sp"
+                android:text="Language"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="280sp">-->
+
+    <!--        <com.google.android.material.imageview.ShapeableImageView-->
+    <!--            android:layout_width="60sp"-->
+    <!--            android:layout_height="60sp"-->
+    <!--            android:id="@+id/recImage3q"-->
+    <!--            android:layout_marginStart="20sp"-->
+    <!--            android:padding="8sp"-->
+    <!--            android:scaleType="centerCrop"-->
+    <!--            android:src="@drawable/baseline_local_hospital_24"/>-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/docwrgasq"-->
+    <!--            android:layout_width="77sp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginStart="20sp"-->
+    <!--            android:layout_marginTop="20sp"-->
+    <!--            android:layout_toEndOf="@+id/recImage3q"-->
+    <!--            android:text="Hospital"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:textStyle="bold" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/dochospitalq"-->
+    <!--            android:layout_width="204sp"-->
+    <!--            android:layout_height="32sp"-->
+    <!--            android:layout_marginStart="103sp"-->
+    <!--            android:layout_marginTop="20sp"-->
+    <!--            android:layout_toEndOf="@id/recImage3q"-->
+    <!--            android:text="Language"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="20sp" />-->
+
+    <!--    </RelativeLayout>-->
+</androidx.cardview.widget.CardView>

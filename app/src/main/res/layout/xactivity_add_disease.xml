@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddDisease"
+    android:background="@drawable/bwback">
+
+
+    <Button
+        android:id="@+id/diseaseaddbutton"
+        android:layout_width="216sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="34sp"
+        android:layout_marginEnd="34sp"
+        android:background="@drawable/roundstyle_2"
+        android:backgroundTint="@color/button2"
+        android:text="ADD"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="539sp" />
+
+    <EditText
+        android:id="@+id/topicdisease"
+        android:layout_width="280sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="34sp"
+        android:layout_marginEnd="34sp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="@color/welcomenew"
+        android:backgroundTintMode="src_in"
+        android:hint="   ENTER DISEASE"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:paddingHorizontal="20sp"
+        android:selectAllOnFocus="true"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="109sp" />
+
+    <EditText
+        android:id="@+id/disesaseabout"
+        android:layout_width="313sp"
+        android:layout_height="108sp"
+        android:layout_marginStart="34sp"
+        android:layout_marginEnd="34sp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="@color/welcomenew"
+        android:backgroundTintMode="src_in"
+        android:hint="   ENTER DESCRIPTION"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:paddingHorizontal="20sp"
+        android:selectAllOnFocus="true"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="329sp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

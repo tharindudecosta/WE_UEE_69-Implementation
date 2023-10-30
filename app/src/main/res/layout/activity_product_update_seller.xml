@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Functions.Seller.SellerProductUpdate">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bk"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="-137dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/docregbutton"
+                android:layout_width="277sp"
+                android:layout_height="62sp"
+                android:layout_marginStart="60sp"
+                android:layout_marginTop="32sp"
+                android:layout_marginEnd="60sp"
+                android:background="@drawable/roundstyle"
+                android:backgroundTint="@color/transparent_colour"
+                android:text="@string/updateProduct"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <Button
+                android:id="@+id/btnMedicineAdd"
+                android:layout_width="216sp"
+                android:layout_height="50sp"
+                android:layout_marginTop="168sp"
+                android:background="@drawable/roundstyle_2"
+                android:backgroundTint="@color/button2"
+                android:text="@string/submit"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/productDescription"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/productDescription"
+                android:layout_width="299sp"
+                android:layout_height="175sp"
+                android:layout_marginStart="34sp"
+                android:layout_marginEnd="34sp"
+                android:background="@drawable/roundstyle_2"
+                android:backgroundTintMode="src_in"
+                android:hint="@string/productDesc"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:paddingHorizontal="20sp"
+                android:selectAllOnFocus="true"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+            <EditText
+                android:id="@+id/productName"
+                android:layout_width="290sp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundstyle_2"
+                android:backgroundTintMode="src_in"
+                android:hint="@string/productName"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:padding="15sp"
+                android:selectAllOnFocus="true"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+
+            <EditText
+                android:id="@+id/productPrice"
+                android:layout_width="290sp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/roundstyle_2"
+                android:backgroundTintMode="src_in"
+                android:hint="@string/productUnitPrice"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:padding="15sp"
+                android:selectAllOnFocus="true"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.504"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+            <Button
+                android:id="@+id/btnUploadImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="64sp"
+                android:layout_marginTop="28sp"
+                android:backgroundTint="@color/btnUploadImg"
+                android:text="Add Image"
+                android:textSize="17sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/productDescription" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12sp"
+                android:layout_marginTop="28sp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toEndOf="@+id/btnUploadImage"
+                app:layout_constraintTop_toBottomOf="@+id/productDescription" />
+
+            <TextView
+                android:id="@+id/tvImageName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="64sp"
+                android:layout_marginTop="4sp"
+                android:text="Image"
+                android:textSize="20sp"
+                android:visibility="invisible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnUploadImage" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="44dp"
+                android:text="@string/productName"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/docregbutton" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="36dp"
+                android:text="@string/productUnitPrice"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/productName" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/productDesc"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/productPrice" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

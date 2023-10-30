@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Functions.Common.LoginUser"
+        android:background="@drawable/signupback">
+<!--        android:id="@+id/drawerLayout"-->
+
+    <EditText
+        android:id="@+id/lemail"
+        android:layout_width="343sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="72sp"
+        android:background="@drawable/roundstyle_2"
+        android:backgroundTint="@color/welcome"
+        android:backgroundTintMode="src_in"
+        android:hint="@string/email"
+        android:imeOptions="actionDone"
+        android:inputType="textEmailAddress"
+        android:paddingHorizontal="20sp"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <EditText
+        android:id="@+id/lpassword"
+        android:layout_width="343sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="45sp"
+        android:background="@drawable/roundstyle_2"
+        android:backgroundTint="@color/welcome"
+        android:backgroundTintMode="src_in"
+        android:hint="@string/password"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:paddingHorizontal="20sp"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lemail" />
+
+    <Button
+        android:id="@+id/sigin"
+        android:layout_width="197sp"
+        android:layout_height="53sp"
+        android:layout_marginStart="100sp"
+        android:layout_marginTop="25sp"
+        android:layout_marginEnd="100sp"
+        android:background="@drawable/roundstyle"
+        android:text="Sign In"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lpassword" />
+
+<!--    <com.google.android.material.navigation.NavigationView-->
+<!--        android:id="@+id/nav_view"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="start"-->
+<!--        android:layout_marginTop="56sp"-->
+<!--        android:layout_marginEnd="32sp"-->
+<!--        android:fitsSystemWindows="true"-->
+<!--        app:headerLayout="@layout/nav_header"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/lemail"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:menu="@menu/nav_menu" />-->
+
+
+    <TextView
+        android:id="@+id/tvCusLoginBanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28sp"
+        android:layout_marginTop="32sp"
+        android:text="@string/login"
+        android:textColor="@color/bob"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32sp"
+        android:text="@string/welcomeBack"
+        android:textColor="@color/bob"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCusLoginBanner" />
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="112sp"
+        android:background="@color/transparent_colour"
+        android:text="@string/createAccount2"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sigin" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:backgroundTint="#92000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/aboutus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="20sp"
+            android:text="@string/aboutus"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/follow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290sp"
+            android:layout_marginTop="20sp"
+            android:text="@string/follow"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/term"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="80sp"
+            android:text="@string/term"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/contactus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="50sp"
+            android:text="@string/contactus"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="22sp"
+            android:layout_height="21sp"
+            android:layout_marginLeft="270sp"
+            android:layout_marginTop="45sp"
+            android:backgroundTint="#ffffff"
+            app:tint="#ffffff"
+            app:srcCompat="@drawable/facebook" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="23sp"
+            android:layout_height="23sp"
+            android:layout_marginLeft="300sp"
+            android:layout_marginTop="44sp"
+            app:tint="#ffffff"
+            app:srcCompat="@drawable/instagram" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="24sp"
+            android:layout_height="24sp"
+            android:layout_marginLeft="330sp"
+            android:layout_marginTop="43sp"
+            app:tint="#ffffff"
+            app:srcCompat="@drawable/twitter" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="22sp"
+            android:layout_height="21sp"
+            android:layout_marginLeft="360sp"
+            android:layout_marginTop="45sp"
+            app:tint="#ffffff"
+            app:srcCompat="@drawable/tiktok_new" />
+
+<!--        <Button-->
+<!--            android:id="@+id/adminLogin"-->
+<!--            android:layout_width="145sp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="250sp"-->
+<!--            android:layout_marginTop="80sp"-->
+<!--            android:textColor="#ffffff"-->
+<!--            android:backgroundTint="@color/transparent"-->
+<!--            android:text="Admin Login" />-->
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--<androidx.drawerlayout.widget.DrawerLayout-->
+
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:id="@+id/drawerLayout"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".login">-->
+
+
+
+
+<!--</androidx.drawerlayout.widget.DrawerLayout>-->

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1055396102984",
+    "project_id": "ueeproject-9c89c",
+    "storage_bucket": "ueeproject-9c89c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055396102984:android:28dcb7c433b258786b297d",
+        "android_client_info": {
+          "package_name": "com.example.ayusri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055396102984-1kd5iftkop7ngfr7mk2ednnsvp3rcre2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCKbKafrOv7J6N4LdyRu1qyXMww7VDkFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055396102984-1kd5iftkop7ngfr7mk2ednnsvp3rcre2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

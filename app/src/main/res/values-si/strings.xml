@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">ආයු-ශ්‍රී</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="doctor_reg">Doctor registration</string>
+    <string name="d_name">Name</string>
+    <string name="d_email">E-mail</string>
+    <string name="enterHospital">Hospital</string>
+    <string name="Daddr">Address</string>
+    <string name="submit">තහවුරු කරන්න</string>
+    <string name="disbtn">Diseases</string>
+    <string name="medicbtn">Medicines</string>
+    <string name="locbtn">Location</string>
+    <string name="profilebtn">View profile</string>
+    <string name="diseases">Diseases</string>
+    <string name="Infection_Diseases">Infection Diseases</string>
+    <string name="Non_CommunicableDiseases">Non-Communicable Doseases</string>
+    <string name="done">DONE</string>
+    <string name="update">UPDATE</string>
+    <string name="delete">DELETE</string>
+    <string name="Turmeric">TURMERIC</string>
+    <string name="buybtn">BUY</string>
+    <string name="confirm_btn">CONFIRM</string>
+    <string name="addMedi">ADD MEDICINE</string>
+
+    <string name="aboutus">අපි ගැන</string>
+    <string name="contactus">සම්බන්ද වන්න</string>
+    <string name="term">නියම සහ කොන්දේසි</string>
+    <string name="follow">සමාජ මාධ්ය</string>
+
+    <string name="Doctors">වෛද්‍යවරුන්</string>
+    <string name="Seller">විකුණුම්කරු</string>
+    <string name="CusHome">මුල් පිටුව</string>
+    <string name="Shop">සාප්පුව</string>
+    <string name="Orders">ඇණවුම්</string>
+    <string name="Appointments">හමුවීම්</string>
+    <string name="MyProfile">ගිණුම</string>
+    <string name="MyUploads">උඩුගත කිරීම්</string>
+
+    <string name="DocHome">වෛද්‍ය මුල් පිටුව</string>
+    <string name="Requests">ඉල්ලීම</string>
+
+    <string name="SellerHome">විකුණුම්කරු මුල් පිටුව</string>
+    <string name="Products">නිෂ්පාදන</string>
+
+    <string name="AdminHome">පරිපාලක මුල් පිටුව</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="doctorSpecialization">
+        <item>විශේෂීකරණය ඇතුලත් කරන්න...</item>
+        <item>කයචිකිත්ස (Internal Medicine)</item>
+        <item>ශල්‍ය තන්ත්‍ර (Surgery)</item>
+        <item>ශාලක්‍ය තන්ත්‍ර
+            (Ophthalmology and Otorhinolaryngology)</item>
+        <item>Kaumarabhritya (Pediatrics)</item>
+        <item>භූත විද්‍යා (Psychiatry)</item>
+        <item>රසායන සහ වජිරකරන
+            (Rejuvenation and Aphrodisiac Therapy)</item>
+        <item>Agada තන්ත්‍ර (Toxicology)</item>
+        <item>පංචකර්ම</item>
+        <item>ජාන චිකිත්ස (Geriatrics)</item>
+        <item>නාඩි පරික්ෂ (Pulse Diagnosis)</item>
+    </string-array>
+
+    <string name="welcomeBack">සාදරයෙන් පිළිගනිමු</string>
+    <string name="createAccount">ගිණුමක් තනන්න</string>
+
+    <string name="productName">නිෂ්පාදනයේ නාමය</string>
+    <string name="productUnitPrice">ඒකක මිල (රු)</string>
+    <string name="productDesc">නිෂ්පාදනයේ විස්තරය</string>
+    <string name="sellerName">විකුණුම්කරුගේ නම</string>
+    <string name="shopName">සාප්පුවේ නම</string>
+    <string name="sellerPhone">විකුණුම්කරු දුරකථනය</string>
+    <string name="finishOrder">ඇනවුම අවසන් කරන්න</string>
+
+    <string name="Doctor">වෛද්යවරයා</string>
+
+    <string name="fullName">සම්පුඋර්ණ නම</string>
+    <string name="name">නම</string>
+    <string name="email">විද්යුත් තැපෑල</string>
+    <string name="password">මුරපදය</string>
+    <string name="specialization">විශේෂීකරණය</string>
+
+    <string name="contact">ඇමතුම් අංකය</string>
+    <string name="address">ලිපිනය</string>
+
+    <string name="login">ගිණුමට පිවිසෙන්න</string>
+
+    <string name="newDoctor">අලුත් වෛද්යවරයා</string>
+    <string name="updateDoctor">වෛද්යවරයා යාවත්කාලීන කරන්න</string>
+    <string name="newSeller">අලුත් විකුණුම්කරු</string>
+    <string name="updateSeller">විකුණුම්කරු යාවත්කාලීන කරන්න</string>
+
+    <string name="newProduct">අලුත් නිෂ්පාදනය</string>
+    <string name="updateProduct">නිෂ්පාදනය යාවත්කාලීන කරන්න</string>
+
+    <string name="OrderItem">ඇණවුම් කරන්න</string>
+
+    <string name="register">ලියාපදිංචි කරන්න</string>
+
+    <string name="ailment">අසනීපය</string>
+    <string name="time">වෙලාව</string>
+    <string name="date">දිනය</string>
+
+    <string name="enterQuantity">ප්රමාණය ඇතුල් කරන්න</string>
+    <string name="quantity">ප්රමාණය</string>
+    <string name="cancelOrder">ඇණවුම් අවලංගු කරන්න</string>
+    <string name="title">ශීර්ෂය</string>
+
+    <string name="addImage">රූපය එකතු කරන්න</string>
+
+    <string name="patient">රෝගියා</string>
+
+    <string name="customerName">පාරිභෝගිකයාගේ නම</string>
+    <string name="customerPhone">පාරිභෝගිකයාගේ දු.ක.</string>
+    <string name="customerAdd">පාරිභෝගිකයාගේ ලිපිනය</string>
+
+    <string name="createAccount2">ඔබ අලුත්ද? ගිණුමක් තනන්න</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#80ACE1AF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green2">#B3C6E8D7</color>
+    <color name="green3">#8AD9A9</color>
+    <color name="underLine">#BDB8B8</color>
+    <color name="navgreen">#0FF74D</color>
+    <color name="docback">#CA9899</color>
+    <color name="docback2">#B3CA9899</color>
+    <color name="welcome">#BCF1F8</color>
+    <color name="button">#83E6DD</color>
+    <color name="welcometag">#B3D0F8FD</color>
+    <color name="button2">#ED5588</color>
+    <color name="navnew">#B3828282</color>
+    <color name="welcomenew">#c9c9c9</color>
+    <color name="welcomenew2">#8DE784</color>
+    <color name="home3">#663fa66f</color>
+    <color name="green5">#CC24B24E</color>
+    <color name="bob">#B3222020</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="tile">#9be5aa</color>
+
+    <color name="productListItemTint">#AEE6E1</color>
+
+    <color name="homeButtonGreen">#5BF27A</color>
+    <color name="homeButtonStroke">#000000</color>
+    <color name="tileOnClick">#0DD534</color>
+    <color name="homeTitleGreen">#35982B</color>
+    <color name="transparent_colour">#8O8AD9A9</color>
+    <color name="misc_yellow_btn_colour">#D48C1F</color>
+    <color name="misc_yellow_btn_colour_clicked">#E19E37</color>
+    <color name="edit">#24a0ed</color>
+    <color name="delete">#D33442</color>
+    <color name="btnUploadImg">#B3E85858</color>
+    <color name="itemCard">#CAE7C7</color>
+    <color name="textBox">#f2f2f2</color>
+    <color name="yellow">#FBFF37</color>
+    <color name="lime">#Abfb04</color>
+    <color name="button_white">#8BC2E6BA</color>
+    <color name="button_pressed">#9be5aa</color>
+
+</resources>

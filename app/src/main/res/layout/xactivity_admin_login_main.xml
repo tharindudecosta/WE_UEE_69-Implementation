@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".xAdminLoginMain">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bwback">
+
+
+        <Button
+            android:id="@+id/doctor"
+            android:layout_width="160sp"
+            android:layout_height="160sp"
+            android:layout_marginStart="24sp"
+            android:layout_marginTop="45sp"
+
+            android:background="@drawable/doctor3"
+            android:text="."
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="96sp"
+            android:layout_height="21sp"
+            android:layout_marginEnd="52sp"
+            android:text="DISEASES"
+            android:textAlignment="center"
+            android:textColor="#0C0B0B"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/diseases" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="96sp"
+            android:layout_height="21sp"
+            android:layout_marginTop="4sp"
+            android:layout_marginEnd="108sp"
+            android:text="MEDICINE"
+            android:textAlignment="center"
+            android:textColor="#0C0B0B"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/medicines" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="96sp"
+            android:layout_height="21sp"
+            android:layout_marginTop="4sp"
+            android:layout_marginEnd="52sp"
+            android:text="LOCATIONS"
+            android:textAlignment="center"
+            android:textColor="#0C0B0B"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/locations" />
+
+        <Button
+            android:id="@+id/locations"
+            android:layout_width="160sp"
+            android:layout_height="160sp"
+            android:layout_marginTop="76sp"
+            android:layout_marginEnd="24sp"
+            android:background="@drawable/location3"
+            android:text="."
+            android:textColor="#000000"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/diseases" />
+
+        <Button
+            android:id="@+id/medicines"
+            android:layout_width="160sp"
+            android:layout_height="160sp"
+            android:layout_marginStart="24sp"
+            android:layout_marginTop="76sp"
+            android:background="@drawable/medicine3"
+            android:text="."
+            android:textColor="#FFFAFA"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/doctor" />
+
+        <Button
+            android:id="@+id/diseases"
+            android:layout_width="160sp"
+            android:layout_height="160sp"
+            android:layout_marginTop="45sp"
+            android:layout_marginEnd="24sp"
+            android:background="@drawable/diseases3"
+            android:text="."
+            android:textColor="#FFFCFC"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="96sp"
+            android:layout_height="21sp"
+            android:layout_marginEnd="108sp"
+            android:text="DOCTORS"
+            android:textAlignment="center"
+            android:textColor="#0C0B0B"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/textView6"
+            app:layout_constraintTop_toBottomOf="@+id/doctor" />
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:headerLayout="@layout/xnav_header"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:menu="@menu/nav_menu" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout2"
+            android:layout_height="157sp"
+            android:layout_width="437sp"
+            android:background="@drawable/roundstyle"
+            android:backgroundTint="@color/navnew"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="244sp"
+                android:layout_marginTop="44sp"
+                android:fontFamily="cursive"
+                android:text="AyuSri"
+                android:textColor="@color/black"
+                android:textSize="50sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="151sp"
+                android:layout_height="151sp"
+                android:layout_marginEnd="58sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/textView"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/logonew" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/docreg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="54sp"
+            android:background="@drawable/roundstyle_2"
+            android:backgroundTint="@color/navnew"
+            android:text="Doctor Registration"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

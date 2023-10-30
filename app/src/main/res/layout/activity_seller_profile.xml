@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk"
+    android:textAlignment="center"
+
+    tools:context=".Functions.Seller.SellerProfile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16sp"
+        tools:layout_editor_absoluteY="-123sp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28sp"
+                android:layout_marginTop="40sp"
+                android:text="@string/MyProfile"
+                android:textColor="#B3222020"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/sellerName"
+                android:layout_width="343sp"
+                android:layout_height="50sp"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="10sp"
+                android:background="@drawable/roundstyle_2"
+                android:backgroundTint="@color/welcome"
+                android:backgroundTintMode="src_in"
+                android:hint="   Full Name"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:paddingHorizontal="20sp"
+                android:selectAllOnFocus="true"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <EditText
+                android:id="@+id/sellerPass"
+                android:layout_width="343sp"
+                android:layout_height="50sp"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="16sp"
+                android:layout_marginEnd="10sp"
+                android:background="@drawable/roundstyle_2"
+                android:backgroundTint="@color/welcome"
+                android:backgroundTintMode="src_in"
+                android:hint="   Password"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:paddingHorizontal="20sp"
+                android:selectAllOnFocus="true"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+            <EditText
+                android:id="@+id/sellerEmail"
+                android:layout_width="343sp"
+                android:layout_height="50sp"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="8sp"
+                android:layout_marginEnd="10sp"
+                android:background="@drawable/roundstyle_2"
+                android:backgroundTint="@color/welcome"
+                android:backgroundTintMode="src_in"
+                android:hint="   Email"
+                android:imeOptions="actionDone"
+                android:inputType="textEmailAddress"
+                android:paddingHorizontal="20sp"
+                android:selectAllOnFocus="true"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+            <Button
+                android:id="@+id/btnUpdateProfile"
+                android:layout_width="216sp"
+                android:layout_height="50sp"
+                android:layout_marginStart="34sp"
+                android:layout_marginTop="32sp"
+                android:layout_marginEnd="34sp"
+                android:background="@drawable/roundstyle_2"
+                android:backgroundTint="@color/button_white"
+                android:text="Update"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sellerShop"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/sellerPhone"
+                android:layout_width="343sp"
+                android:layout_height="50sp"
+                android:layout_marginStart="10sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="10sp"
+                android:background="@drawable/roundstyle_2"
+                android:backgroundTint="@color/welcome"
+                android:backgroundTintMode="src_in"
+                android:hint="   Phone number"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                android:paddingHorizontal="20sp"
+                android:selectAllOnFocus="true"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.458"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+            <EditText
+                android:id="@+id/sellerAddress"
+                android:layout_width="343sp"
+                android:layout_height="50sp"
+                android:layout_marginTop="8sp"
+                android:background="@drawable/roundstyle_2"
+                android:backgroundTint="@color/welcome"
+                android:backgroundTintMode="src_in"
+                android:hint="   Address"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:paddingHorizontal="20sp"
+                android:selectAllOnFocus="true"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.47"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+            <EditText
+                android:id="@+id/sellerShop"
+                android:layout_width="343sp"
+                android:layout_height="50sp"
+                android:layout_marginTop="12sp"
+                android:background="@drawable/roundstyle_2"
+                android:backgroundTint="@color/welcome"
+                android:backgroundTintMode="src_in"
+                android:hint="   Shop Name"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:paddingHorizontal="20sp"
+                android:selectAllOnFocus="true"
+                android:textColor="#000000"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32sp"
+                android:layout_marginTop="36sp"
+                android:text="@string/fullName"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32sp"
+                android:layout_marginTop="16sp"
+                android:text="@string/email"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sellerName" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32sp"
+                android:layout_marginTop="24sp"
+                android:text="@string/contact"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sellerEmail" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32sp"
+                android:layout_marginTop="24sp"
+                android:text="@string/password"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sellerPhone" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32sp"
+                android:layout_marginTop="24sp"
+                android:text="@string/address"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sellerPass" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32sp"
+                android:layout_marginTop="24sp"
+                android:text="@string/shopName"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sellerAddress" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recCard"
+    android:backgroundTint="@color/itemCard"
+    android:layout_marginStart="12sp"
+    android:layout_marginEnd="12sp"
+    android:layout_marginHorizontal="10sp"
+    android:layout_marginVertical="10sp"
+    app:cardCornerRadius="20sp"
+    app:cardElevation="8sp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgSellerImage"
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:layout_marginStart="30sp"
+                android:layout_marginTop="30sp"
+                android:layout_marginEnd="30sp"
+                android:layout_marginBottom="30sp"
+                android:background="@drawable/roundstyle"
+                android:padding="7sp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/recImage"
+                android:layout_width="60sp"
+                android:layout_height="60sp"
+                android:layout_marginStart="20sp"
+                android:padding="8sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/baseline_person_24" />
+
+            <TextView
+                android:id="@+id/tvSellName"
+                android:layout_width="68sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_toEndOf="@+id/recImage"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sellName"
+                android:layout_width="202sp"
+                android:layout_height="30sp"
+                android:layout_marginStart="99sp"
+                android:layout_marginTop="20sp"
+                android:layout_toEndOf="@id/recImage"
+                android:text="Language"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="60sp"
+                android:layout_height="60sp"
+                android:id="@+id/recImage1"
+                android:layout_marginStart="20sp"
+                android:padding="8sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/baseline_email_24"/>
+
+            <TextView
+                android:id="@+id/docemfrwr"
+                android:layout_width="71sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_toEndOf="@+id/recImage1"
+                android:text="Email"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sellEmail"
+                android:layout_width="204sp"
+                android:layout_height="32sp"
+                android:layout_marginStart="99sp"
+                android:layout_marginTop="20sp"
+                android:layout_toEndOf="@id/recImage1"
+                android:text="Language"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="60sp"
+                android:layout_height="60sp"
+                android:id="@+id/recImage2"
+                android:layout_marginStart="20sp"
+                android:padding="8sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/baseline_phone_android_24"/>
+
+            <TextView
+                android:id="@+id/docwrg"
+                android:layout_width="72sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_toEndOf="@+id/recImage2"
+                android:text="Phone"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sellPhone"
+                android:layout_width="208sp"
+                android:layout_height="32sp"
+                android:layout_marginStart="99sp"
+                android:layout_marginTop="20sp"
+                android:layout_toEndOf="@id/recImage2"
+                android:text="Language"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="60sp"
+                android:layout_height="60sp"
+                android:id="@+id/recImage4"
+                android:layout_marginStart="20sp"
+                android:padding="8sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/baseline_location_on_24"/>
+
+            <TextView
+                android:id="@+id/tvSellStore"
+                android:layout_width="72sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="20sp"
+                android:layout_toEndOf="@+id/recImage4"
+                android:text="Store Name"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sellStore"
+                android:layout_width="206sp"
+                android:layout_height="34sp"
+                android:layout_marginStart="104sp"
+                android:layout_marginTop="20sp"
+                android:layout_toEndOf="@id/recImage4"
+                android:text="Language"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="60sp"
+                android:layout_height="60sp"
+                android:id="@+id/recImage3"
+                android:layout_marginStart="20sp"
+                android:padding="8sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/baseline_local_hospital_24"/>
+
+            <TextView
+                android:id="@+id/docwrgas"
+                android:layout_width="77sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_toEndOf="@+id/recImage3"
+                android:text="Address"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/sellAdd"
+                android:layout_width="204sp"
+                android:layout_height="32sp"
+                android:layout_marginStart="103sp"
+                android:layout_marginTop="20sp"
+                android:layout_toEndOf="@id/recImage3"
+                android:text="Language"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnDeleteDocRecord"
+                android:layout_width="154sp"
+                android:layout_height="49sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="40sp"
+                android:background="@drawable/delete_button_shape"
+                android:drawableTop="@drawable/delete_record"
+                android:paddingTop="7sp"
+                app:backgroundTint="@null"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
+                android:id="@+id/btnUpdateDocRecord"
+                android:layout_width="154sp"
+                android:layout_height="49sp"
+                android:layout_marginStart="180sp"
+                android:layout_marginTop="40sp"
+                android:layout_marginBottom="30sp"
+                android:background="@drawable/edit_button_shape"
+                android:drawableTop="@drawable/edit_record"
+                android:padding="7sp"
+                app:backgroundTint="@null"
+                app:layout_constraintStart_toStartOf="parent" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="280sp">-->
+
+    <!--        <com.google.android.material.imageview.ShapeableImageView-->
+    <!--            android:layout_width="60sp"-->
+    <!--            android:layout_height="60sp"-->
+    <!--            android:id="@+id/recImage3q"-->
+    <!--            android:layout_marginStart="20sp"-->
+    <!--            android:padding="8sp"-->
+    <!--            android:scaleType="centerCrop"-->
+    <!--            android:src="@drawable/baseline_local_hospital_24"/>-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/docwrgasq"-->
+    <!--            android:layout_width="77sp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginStart="20sp"-->
+    <!--            android:layout_marginTop="20sp"-->
+    <!--            android:layout_toEndOf="@+id/recImage3q"-->
+    <!--            android:text="Hospital"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="15sp"-->
+    <!--            android:textStyle="bold" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/dochospitalq"-->
+    <!--            android:layout_width="204sp"-->
+    <!--            android:layout_height="32sp"-->
+    <!--            android:layout_marginStart="103sp"-->
+    <!--            android:layout_marginTop="20sp"-->
+    <!--            android:layout_toEndOf="@id/recImage3q"-->
+    <!--            android:text="Language"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="15sp" />-->
+
+    <!--    </RelativeLayout>-->
+</androidx.cardview.widget.CardView>

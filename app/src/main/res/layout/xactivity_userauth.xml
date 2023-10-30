@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Userauth">
+
+
+
+    <ImageButton
+        android:id="@+id/BtnEdit"
+        android:layout_width="53sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="296sp"
+        android:layout_marginBottom="508sp"
+        android:contentDescription="Edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="onclickClientAuthEdit"/>
+
+    <TextView
+        android:id="@+id/viewEmail"
+        android:layout_width="193sp"
+        android:layout_height="31sp"
+        android:layout_marginTop="8sp"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+        android:padding="7sp"
+
+        app:layout_constraintEnd_toEndOf="@+id/viewUsername"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/viewUsername"
+        app:layout_constraintTop_toBottomOf="@+id/textView40"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <TextView
+        android:id="@+id/viewUsername"
+        android:layout_width="197sp"
+        android:layout_height="33sp"
+        android:layout_marginTop="44sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="7sp"
+        android:textColor="@color/black"
+
+
+        app:layout_constraintTop_toBottomOf="@+id/textView39"
+        tools:layout_editor_absoluteX="0sp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80sp"
+        android:text="Username"
+        android:textColor="@color/black"
+
+        app:layout_constraintHorizontal_bias="0.129"/>
+
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12sp"
+        android:text="Email"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textView39"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView39"
+        app:layout_constraintTop_toBottomOf="@+id/viewUsername" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recCard"
+    android:backgroundTint="@color/itemCard"
+    android:layout_marginStart="12sp"
+    android:layout_marginEnd="12sp"
+    android:layout_marginHorizontal="10sp"
+    android:layout_marginVertical="10sp"
+    app:cardCornerRadius="20sp"
+    app:cardElevation="8sp">
+
+    <LinearLayout
+        android:layout_width="399sp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgProdImage"
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:layout_margin="30sp"
+            android:padding="7sp"
+            android:background="@drawable/roundstyle"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/tvProductName"
+                android:layout_width="136dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:text="@string/productName"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/productName"
+                android:layout_width="202sp"
+                android:layout_height="30sp"
+                android:layout_marginStart="175sp"
+                android:layout_marginTop="20sp"
+                android:text="Language"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvProductPrice"
+                android:layout_width="71sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:text="@string/productUnitPrice"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/productPrice"
+                android:layout_width="204sp"
+                android:layout_height="32sp"
+                android:layout_marginStart="175sp"
+                android:layout_marginTop="20sp"
+                android:text="Language"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvProducDesc"
+                android:layout_width="138dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="10sp"
+                android:text="@string/productDesc"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/productDescription"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="175sp"
+                android:layout_marginTop="20sp"
+                android:text="Language"
+                android:maxLines="5"
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnDeleteDocRecord"
+                android:layout_width="154sp"
+                android:layout_height="49sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="40sp"
+                android:background="@drawable/delete_button_shape"
+                android:drawableTop="@drawable/delete_record"
+                android:paddingTop="7sp"
+                app:backgroundTint="@null"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
+                android:id="@+id/btnUpdateDocRecord"
+                android:layout_width="154sp"
+                android:layout_height="49sp"
+                android:layout_marginStart="180sp"
+                android:layout_marginTop="40sp"
+                android:layout_marginBottom="30sp"
+                android:background="@drawable/edit_button_shape"
+                android:drawableTop="@drawable/edit_record"
+                android:padding="7sp"
+                app:backgroundTint="@null"
+                app:layout_constraintStart_toStartOf="parent" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

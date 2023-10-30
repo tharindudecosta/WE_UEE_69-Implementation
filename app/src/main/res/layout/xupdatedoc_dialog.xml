@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recCard"
+    android:backgroundTint="@color/teal_700"
+    android:layout_marginStart="12sp"
+    android:layout_marginEnd="12sp"
+    android:layout_marginHorizontal="10sp"
+    android:layout_marginVertical="10sp"
+    app:cardCornerRadius="20sp"
+    app:cardElevation="8sp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10sp"
+    android:background="@color/welcomenew">
+
+    <EditText
+        android:id="@+id/dcname"
+        android:layout_width="365sp"
+        android:layout_height="56sp"
+        android:layout_marginTop="20sp"
+        android:hint="Doctor Name"
+        android:inputType="textPersonName"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/dcmail"
+        android:layout_width="365sp"
+        android:layout_height="56sp"
+        android:layout_marginTop="20sp"
+        android:ems="10"
+        android:hint="Doctor E-mail"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/dcphone"
+        android:layout_width="365sp"
+        android:layout_height="56sp"
+        android:layout_marginTop="20sp"
+        android:ems="10"
+        android:hint="Doctor phone number"
+        android:inputType="number"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/dchos"
+        android:layout_width="365sp"
+        android:layout_height="56sp"
+        android:layout_marginTop="20sp"
+        android:hint="Doctor Hospital"
+        android:inputType="text"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/dcadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:hint="Doctor Address"
+        android:inputType="text"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/dcupbtn"
+        android:layout_width="365sp"
+        android:layout_height="56sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="@color/button2"
+        android:text="UPDATE"
+        android:textColor="#000000" />
+
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

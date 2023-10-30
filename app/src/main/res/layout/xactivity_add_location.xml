@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bwback">
+
+
+    <Button
+        android:id="@+id/locationaddbutton"
+        android:layout_width="216sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="34sp"
+        android:layout_marginTop="72sp"
+        android:layout_marginEnd="34sp"
+        android:background="@drawable/roundstyle_2"
+        android:backgroundTint="@color/button2"
+        android:text="ADD"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.596"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationphone"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/locationname"
+        android:layout_width="365sp"
+        android:layout_height="80sp"
+        android:layout_marginStart="34sp"
+        android:layout_marginTop="84sp"
+        android:layout_marginEnd="34sp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="@color/welcomenew"
+        android:backgroundTintMode="src_in"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:hint="   ENTER NAME"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:paddingHorizontal="20sp"
+        android:selectAllOnFocus="true"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/locationloc"
+        android:layout_width="365sp"
+        android:layout_height="120sp"
+        android:layout_marginStart="34sp"
+        android:layout_marginTop="32sp"
+        android:layout_marginEnd="34sp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="@color/welcomenew"
+        android:backgroundTintMode="src_in"
+        android:drawableLeft="@drawable/baseline_location_on_24"
+        android:hint="   ENTER ADDRESS"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:paddingHorizontal="20sp"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationname" />
+
+    <EditText
+        android:id="@+id/locationphone"
+        android:layout_width="365sp"
+        android:layout_height="180sp"
+        android:layout_marginStart="34sp"
+        android:layout_marginTop="28sp"
+        android:layout_marginEnd="34sp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="@color/welcomenew"
+        android:backgroundTintMode="src_in"
+        android:drawableLeft="@drawable/baseline_description_24"
+        android:hint="   ENTER DESCRIPTION"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:paddingHorizontal="20sp"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationloc" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
