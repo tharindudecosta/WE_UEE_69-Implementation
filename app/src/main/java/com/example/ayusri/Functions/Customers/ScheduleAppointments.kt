@@ -98,17 +98,16 @@ class ScheduleAppointments : AppCompatActivity() {
                     REQUEST_PHONE_CALL
                 )
             } else {
-                makeCall()
+                makeCall(doctorPhone)
             }
 
         }
 
     }
 
-    private fun makeCall() {
-        val numberText = "0760710380"
+    private fun makeCall(doctorPhone: String?) {
         val intent = Intent(Intent.ACTION_CALL)
-        intent.setData(Uri.parse("tel:$numberText"))
+        intent.setData(Uri.parse("tel:$doctorPhone"))
         if (ActivityCompat.checkSelfPermission(
                 this,
                 Manifest.permission.CALL_PHONE
@@ -125,9 +124,10 @@ class ScheduleAppointments : AppCompatActivity() {
         permissions: Array<out String>,
         grantResults: IntArray
     ) {
+        val doctorPhone = intent.getStringExtra("doctorPhone")
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         if (requestCode == REQUEST_PHONE_CALL) {
-            makeCall()
+            makeCall(doctorPhone)
         }
     }
 
